@@ -1,0 +1,35 @@
+.label {
+  color: #f1f1f1;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 20px;
+}
+
+.label-item {
+  background-color: #68a3ca;
+  padding: 8px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.label-item:hover {
+  cursor: pointer;
+}
+
+.team {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .label {
+    grid-template-columns: auto auto;
+    gap: 15px;
+  }
+
+  .team {
+    gap: 15px;
+  }
+}

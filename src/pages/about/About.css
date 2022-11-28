@@ -1,0 +1,25 @@
+.about {
+  margin-top: 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.about img {
+  height: 200px;
+}
+
+.about h3 {
+  padding: 20px 0;
+}
+
+.about p {
+  line-height: 25px;
+  text-align: center;
+}
