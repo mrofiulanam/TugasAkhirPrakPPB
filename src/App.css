@@ -11,7 +11,7 @@ header {
 .logo {
   max-width: 768px;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 1rem;
   background-color: #005187;
   color: white;
   border-radius: 0 0 8px 8px;
@@ -20,7 +20,7 @@ header {
 main {
   max-width: 768px;
   height: auto;
-  padding: 100px 20px;
+  padding: 80px 20px;
   margin: 0 auto;
 }
 
@@ -37,7 +37,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 1rem;
   background-color: #005187;
   border-radius: 8px 8px 0 0;
 }

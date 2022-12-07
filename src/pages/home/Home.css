@@ -1,9 +1,15 @@
 .label {
-  color: #f1f1f1;
+  color: #f1f1f1; 
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  gap: 20px;
-}
+  align-items: center;
+    grid-auto-flow: column;
+    grid-auto-rows: unset; /* play with this to change height of the children, 50% will fill half */
+    grid-template-columns: unset; /* do not set template columns and rows */
+    grid-template-rows: 1fr;
+    overflow-x: scroll;
+  gap: 10px;
+  
+  }
 
 .label-item {
   background-color: #68a3ca;
@@ -25,8 +31,12 @@
 
 @media only screen and (max-width: 768px) {
   .label {
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     gap: 15px;
+  }
+
+  .label-item > div {
+    padding: 10px;
   }
 
   .team {
